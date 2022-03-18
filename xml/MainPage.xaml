@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="xml.MainPage"
+             BackgroundColor="{DynamicResource SecondaryColor}">
+
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="100" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto" />
+                <ColumnDefinition Width="auto" />
+            </Grid.ColumnDefinitions>
+
+            <Label 
+                Text="XML Terror"
+                Grid.Row="0" Grid.ColumnSpan="2"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="100"
+                HorizontalOptions="Center" />
+
+            <Label 
+                Text="xml status"
+                Grid.Row="1"
+                FontSize="18"
+                FontAttributes="Bold"
+                x:Name="StatusMsg"
+                HorizontalOptions="Center" />
+           
+            <Button 
+                Text="Load XML"
+                FontAttributes="Bold"
+                Grid.Row="3"
+                Grid.Column="0"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnClickLoad" />
+            
+            <Button 
+                Text="Save XML"
+                FontAttributes="Bold"
+                Grid.Row="3"
+                Grid.Column="1"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnClickSave" />
+            
+
+            
+
+        </Grid>
+    </ScrollView>
+</ContentPage>
