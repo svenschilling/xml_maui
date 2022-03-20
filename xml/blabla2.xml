@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Eintrag Name="qweqwewqe" Betrag="eqweqweqweq">
+    <Nummer>qweqweqwe</Nummer>
+  </Eintrag>
+  <Eintrag Name="3333333" Betrag="33333333">
+    <Nummer>3333333</Nummer>
+  </Eintrag>
+  <Eintrag Name="333333" Betrag="444444">
+    <Nummer>444444</Nummer>
+  </Eintrag>
+  <Eintrag Name="99999" Betrag="99999">
+    <Nummer>999999</Nummer>
+  </Eintrag>
+  <Eintrag Name="bbbb" Betrag="111333">
+    <Nummer>6546</Nummer>
+  </Eintrag>
+  <Eintrag Name="aaaa" Betrag="1111">
+    <Nummer>23</Nummer>
+  </Eintrag>
+  <Eintrag Name="allest" Betrag="100">
+    <Nummer>777</Nummer>
+  </Eintrag>
+  <Eintrag Name="" Betrag="">
+    <Nummer></Nummer>
+  </Eintrag>
+</Root>
